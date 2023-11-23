@@ -1,4 +1,4 @@
-import 'package:bloc_patterns/counter/view/counter_page.dart';
+import 'package:bloc_patterns/counter_app/counter/view/counter_page.dart';
 import 'package:flutter/material.dart';
 
 /// {@template counter_app}
