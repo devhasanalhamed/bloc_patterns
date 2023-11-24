@@ -12,7 +12,7 @@ class ApplicationConnecter extends StatelessWidget {
       home: PageView(
         children: const [
           CounterApp(),
-          App(),
+          TimerApp(),
         ],
       ),
     );
