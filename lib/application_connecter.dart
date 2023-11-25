@@ -1,4 +1,5 @@
 import 'package:bloc_patterns/counter_app/app.dart';
+import 'package:bloc_patterns/infinite_list_app/app.dart';
 import 'package:bloc_patterns/timer_app/app.dart';
 import 'package:flutter/material.dart';
 
@@ -13,6 +14,7 @@ class ApplicationConnecter extends StatelessWidget {
         children: const [
           CounterApp(),
           TimerApp(),
+          InfiniteListApp(),
         ],
       ),
     );
