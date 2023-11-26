@@ -10,7 +10,7 @@ import 'package:http/http.dart' as http;
 
 import 'package:stream_transform/stream_transform.dart';
 
-const _postLimit = 20;
+const _postLimit = 10;
 const throttleDuration = Duration(milliseconds: 100);
 
 EventTransformer<E> throttleDroppable<E>(Duration duration) {
