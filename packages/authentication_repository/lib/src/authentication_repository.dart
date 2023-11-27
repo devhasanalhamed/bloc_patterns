@@ -1,5 +1,5 @@
-
 import 'dart:async';
+
 enum AuthenticationStatus { unknown, authenticated, unauthenticated }
 
 class AuthenticationRepository {
@@ -27,4 +27,3 @@ class AuthenticationRepository {
 
   void dispose() => _controller.close();
 }
-
